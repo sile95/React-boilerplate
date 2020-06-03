@@ -1,0 +1,4 @@
+.env
+**/serviceWorker.js
+**/node_modules/*
+**/index.test.jsx

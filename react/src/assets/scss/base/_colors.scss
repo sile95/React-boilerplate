@@ -1,0 +1,17 @@
+$colors: (
+        black: #000000,
+        mid-grey: #646464,
+        light-grey: #f2f2f2,
+        white: #ffffff,
+        sun: #f0c356,
+        tomato: #ed767a,
+        sky: #56a8c2,
+        apple: #8dc875,
+        lavander: #bf87e1,
+        neon: #7474ee,
+        orange: #f88d4c
+);
+
+@function getColor($colorName: default) {
+  @return map-get($colors, $colorName);
+}

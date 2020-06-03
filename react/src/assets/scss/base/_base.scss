@@ -1,0 +1,123 @@
+@import 'variables';
+@import 'colors';
+@import 'font';
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: $font-body;
+  color: getColor(black);
+  background: getColor(white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+}
+
+a {
+  color: getColor(apple);
+  text-decoration: none;
+  transition: 0.2s;
+
+  &:hover {
+    color: getColor(apple);
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: getColor(apple);
+    text-decoration: none;
+  }
+
+  &.link-with-icon {
+    display: inline-flex;
+
+    svg {
+      margin: 0 $spacing;
+      fill: getColor(apple);
+    }
+
+    &:hover {
+      color: getColor(apple);
+
+      svg {
+        fill: getColor(apple);
+      }
+    }
+  }
+}
+
+button * {
+  pointer-events: none;
+}
+
+p,
+ul,
+ol {
+  margin: 0 0 $spacing;
+}
+
+p:last-child,
+ul:last-child,
+ol:last-child {
+  margin-bottom: 0;
+}
+
+a,
+a img,
+button {
+  transition: .2s ease;
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: $spacing;
+}
+
+// Images
+
+figure {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
