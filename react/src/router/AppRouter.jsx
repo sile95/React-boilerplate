@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Dashboard from '@core/src/screens/Dashboard';
 import Error404 from '@core/src/screens/Error404';
 
-const RouterManager = () => {
+const AppRouter = () => {
     return (
         <Router>
             <Switch>
@@ -14,4 +14,4 @@ const RouterManager = () => {
     );
 };
 
-export default RouterManager;
+export default AppRouter;

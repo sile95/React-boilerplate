@@ -1,13 +1,24 @@
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 import * as env from '@core/src/utils/enviromentVariables';
-import reducers from '@core/src/reducers';
+import thunk from 'redux-thunk';
+import combinedReducers from '@core/src/reducers';
+import { composeWithDevTools } from 'redux-devtools-extension';
+import { persistStore, persistReducer } from 'redux-persist';
+import storage from 'redux-persist/lib/storage';
 
 const debuggerState = env.default.REDUX_DEBUGGER === 'true';
 
-const store = createStore(
-    reducers,
-    debuggerState && window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+const middleware = debuggerState
+    ? composeWithDevTools(applyMiddleware(thunk))
+    : applyMiddleware(thunk);
+
+const reducer = persistReducer(
+    { key: 'state', storage, whitelist: ['dashboardReducer'] },
+    combinedReducers
 );
 
-// eslint-disable-next-line import/prefer-default-export
-export { store };
+const store = createStore(reducer, middleware);
+
+const persistor = persistStore(store);
+
+export { store, persistor };

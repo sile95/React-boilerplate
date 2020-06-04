@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { store } from '@core/src/store';
-import RouterManager from '@core/src/utils/RouterManager';
-import * as serviceWorker from './serviceWorker';
+import { store, persistor } from '@core/src/store';
+import AppRouter from '@core/src/router';
 import '@core/src/assets/scss/main.scss';
+import { PersistGate } from 'redux-persist/lib/integration/react';
+import * as serviceWorker from './serviceWorker';
 
 /**
  |--------------------------------------------------
@@ -14,9 +15,11 @@ import '@core/src/assets/scss/main.scss';
  |--------------------------------------------------
  */
 ReactDOM.render(
-    <Provider store={store}>
-        <RouterManager />
-    </Provider>,
+    <PersistGate persistor={persistor}>
+        <Provider store={store}>
+            <AppRouter />
+        </Provider>
+    </PersistGate>,
     document.getElementById('root')
 );
 

@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cc2831c-9de8-437b-aabd-4d9b620d5674" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/src/api/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/src/api/restClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/src/api/restClient.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/src/utils/RouterManager/RouterManager.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/src/router/AppRouter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/src/utils/RouterManager/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DOKUMENTI\OGI\react-node\react\src" />
       <recent name="D:\DOKUMENTI\OGI\react-template\react\src\screens\Dashboard" />
       <recent name="D:\DOKUMENTI\OGI\react-template\react" />
     </key>
@@ -81,6 +91,8 @@
       <workItem from="1591224973335" duration="311000" />
       <workItem from="1591258010256" duration="4079000" />
       <workItem from="1591271937798" duration="1356000" />
+      <workItem from="1591305442233" duration="76000" />
+      <workItem from="1591305530721" duration="4886000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1591221753901</created>
@@ -108,6 +120,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updates" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="828" y="412" key="#ESLint" timestamp="1591308123550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="412" key="#ESLint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591308123550" />
     <state x="552" y="178" key="#File_Watchers" timestamp="1591211462665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -128,10 +144,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591212289881" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591195053764">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591306175322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591195053764" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591306175322" />
     <state x="585" y="87" key="CommitChangelistDialog2" timestamp="1591262004432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
