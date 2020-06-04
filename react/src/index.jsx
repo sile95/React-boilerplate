@@ -1,19 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import RouterManager from './utils/RouterManager';
-import reducers from './reducers';
+import { store } from '@core/src/store';
+import RouterManager from '@core/src/utils/RouterManager';
 import * as serviceWorker from './serviceWorker';
-import './assets/scss/main.scss';
-import * as env from './utils/enviromentVariables';
-
-const debuggerState = env.default.REDUX_DEBUGGER === 'true';
-
-const store = createStore(
-    reducers,
-    debuggerState && window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-);
+import '@core/src/assets/scss/main.scss';
 
 /**
  |--------------------------------------------------
