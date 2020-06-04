@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cc2831c-9de8-437b-aabd-4d9b620d5674" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/api/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/api/restClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/src/api/restClient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/src/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/utils/RouterManager/RouterManager.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/src/router/AppRouter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/utils/RouterManager/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/src/screens/Dashboard/Dashboard.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/src/screens/Dashboard/Dashboard.selectors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +153,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591262102796" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1591310705199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591310705199" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1591310705199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591310705199" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1591310705199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591310705199" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1591310705199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591310705199" />
     <state x="540" y="255" key="IDE.errors.dialog" timestamp="1591258824956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

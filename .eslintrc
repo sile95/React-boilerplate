@@ -49,7 +49,12 @@
     },
     "settings": {
         "import/resolver": {
-            "alias": [["@core", "./react"]]
+            "alias": [
+                ["@core", "./react"],
+                ["@components", "./react/src/components"],
+                ["@api", "./react/src/api"],
+                ["@services", "./react/src/services"]
+            ]
         }
     }
 }

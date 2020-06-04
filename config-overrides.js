@@ -10,6 +10,9 @@ module.exports = {
     webpack: override(
         addWebpackAlias({
             '@core': path.resolve(__dirname, 'react'),
+            '@api': path.resolve(__dirname, 'react/src/api'),
+            '@components': path.resolve(__dirname, 'react/src/components'),
+            '@services': path.resolve(__dirname, 'react/src/services'),
         }),
 
         ...addBabelPresets('@babel/preset-env', '@babel/preset-react'),
