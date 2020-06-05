@@ -13,7 +13,7 @@ const middleware = debuggerState
     : applyMiddleware(thunk);
 
 const reducer = persistReducer(
-    { key: 'state', storage, whitelist: ['dashboardReducer'] },
+    { key: 'state', storage, whitelist: ['authReducer'] },
     combinedReducers
 );
 

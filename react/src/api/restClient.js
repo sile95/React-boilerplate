@@ -1,4 +1,6 @@
 import axios from 'axios';
+import { store } from '@core/src/store';
+import { actions as authActions } from '@core/src/utils/Auth/Auth.reducers';
 
 /**
  * Preparing rest client for react app
@@ -9,6 +11,23 @@ const restClient = axios.create({
     timeout: process.env.REACT_APP_API_TIMEOUT,
     // headers: { Accept: ' application/vnd.api+json' }
 });
+
+restClient.interceptors.response.use(
+    (resp) => {
+        return resp;
+    },
+    (err) => {
+        // if you have no specific plan B for errors, let them be handled here with a notification
+        const { data } = { ...err.response };
+
+        // Sign Out if expired JWT
+        if (data?.code === 'expiredJWT' || data?.code === 'invalidJWT') {
+            store.dispatch({ type: authActions.START_SIGN_OUT });
+        }
+
+        throw err;
+    }
+);
 
 /**
  * setToken is filling api clients with token
